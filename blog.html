@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Nheela High School </title>
+    <link rel="stylesheet" href="css/fontawesome.min.css" class="css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" class="css">
+</head>
+
+<body>
+
+    <section class="sub_header">
+
+        <nav>
+            <a href="index.html"> <img src="image/logo.png"></a>
+            <div class="nav_links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="courses.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contuct.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="">
+            <h1>Our Certificate & Online Programs<br> For This Year</h1>
+        </div>
+    </section>
+
+    <!--Blog page content start-->
+    <!--Blog page content start-->
+    <section id="blog_content">
+        <div class="row">
+            <div class="blog_col_left">
+                <img src="image/certificate.jpg" alt="">
+                <h2>Our Certificate & Online Programs</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed architecto error perferendis soluta aliquid explicabo odio necessitatibus dignissimos voluptas, neque ab iusto laborum pariatur maxime quibusdam corrupti dolorem commodi provident perspiciatis velit corporis vel ullam hic, adipisci. Autem quam explicabo necessitatibus corrupti nobis consectetur quisquam, voluptate, ut consequuntur quia porro?</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed architecto error perferendis soluta aliquid explicabo odio necessitatibus dignissimos voluptas, neque ab iusto laborum pariatur maxime quibusdam corrupti dolorem commodi provident perspiciatis velit corporis vel ullam hic, adipisci. Autem quam explicabo necessitatibus corrupti nobis consectetur quisquam, voluptate, ut consequuntur quia porro?</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed architecto error perferendis soluta aliquid explicabo odio necessitatibus dignissimos voluptas, neque ab iusto laborum pariatur maxime quibusdam corrupti dolorem commodi provident perspiciatis velit corporis vel ullam hic, adipisci. Autem quam explicabo necessitatibus corrupti nobis consectetur quisquam, voluptate, ut consequuntur quia porro? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos quod consequuntur, cum, hic, et quia repudiandae labore dignissimos officia aut quas, unde velit. Culpa, quisquam esse alias recusandae iure. Voluptatibus dolorum cum maxime suscipit molestiae odio asperiores possimus alias rem harum, delectus atque, vero quidem praesentium rerum dicta aliquid fuga, nam, voluptatum hic architecto commodi optio velit aperiam ipsam. Placeat.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro placeat beatae accusamus eaque nesciunt modi excepturi. Unde ea, sunt temporibus.</p>
+
+                <div class="comment_box">
+                    <h3>Leave a comment</h3>
+                    <form action="" class="comment_form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your comment"></textarea>
+                        <button type="submit" class="hero_btn new_btn">POST COMMENT</button>
+                    </form>
+                </div>
+
+            </div>
+            <div class="blog_col_right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Department Of Science</span>
+                    <span>80</span>
+                </div>
+                <div>
+                    <span>Department Of Business Studies</span>
+                    <span>100</span>
+                </div>
+                <div>
+                    <span>Department Of Humanities</span>
+                    <span>100</span>
+                </div>
+                <div>
+                    <span>Class Eight</span>
+                    <span>400</span>
+                </div>
+                <div>
+                    <span>Class Seven</span>
+                    <span>400</span>
+                </div>
+                <div>
+                    <span>Class Six</span>
+                    <span>400</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Fotter part start-->
+    <!--Fotter part start-->
+    <section id="fotter">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, modi nulla quo incidunt minima blanditiis eius, repellat possimus nostrum facere.<br> Necessitatibus quibusdam ratione dolorem expedita deserunt repudiandae odio eum consectetur!</p>
+
+        <div class="social_media">
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+            <a href="#"><i class="fab fa-twitter-square"></i></a>
+            <a href="#"><i class="fab fa-instagram-square"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <p>Made By <i class="fas fa-user-secret"></i>Shafiqul Islam</p>
+
+    </section>
+
+
+    <!--Fotter part end-->
+    <!--Fotter part end-->
+
+
+
+
+
+
+
+
+
+
+    <script>
+        var navLinksn = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinksn.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinksn.style.right = "-200px";
+        }
+
+    </script>
+
+
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/particles.min.js"></script>
+    <script src="js/stats.min.js"></script>
+    <script src="js/particle.js"></script>
+    <script src="js/jquery.ripples-min.js"></script>
+    <script src="js/CSSRulePlugin3.min.js"></script>
+    <script src="js/gsap-latest-beta.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
